@@ -160,3 +160,4 @@ if __name__ == '__main__':
     print('Максимальное количество одновременных звонков: ', CL.get_max_simult_calls())
     elapsed_time = time.time() - start_time
     print('Время выполнения программы: ', elapsed_time)
+    engine.dispose()
